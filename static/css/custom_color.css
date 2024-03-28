@@ -1,0 +1,31 @@
+:root { 
+    --peach: #FFEAD3;
+    --brown: #392A34;
+    --orange: #FF7000;
+    --light_green: #8FCE39;
+    --dark_green: #68B104;
+    --firefly: #fbba72;
+    --blackism: #02111b;
+    --runaway: #ef798a;
+    --peace: #9cde9f; 
+  }
+ 
+ /* Custom_coloring for similar dishes */
+ .color-back {
+    /* background: var(--runaway); */
+ }
+ .colorizer-title {
+    color: var(--orange);
+  }
+  
+  .colorizer-outline {
+    border: var(--light_green);
+  }
+  
+  .colorizer-other {
+    color: var(--light_green)
+  }
+  
+  .colorizer-blocks {
+    background: #fff;
+  }

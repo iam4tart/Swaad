@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Romanesco&display=swap" rel="stylesheet">
+    <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- custom_color style -->
+    <link href="{{ url_for('static', filename='css/custom_color.css') }}" rel="stylesheet" />
+
+  <!-- font awesome style -->
+  <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- slidck slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <div class="card container padder">
+    {{m}}
+  <div class="card-group">
+    <div class="card" style="width: 18rem;">
+      <p class="card-header"><small class="text-muted colorizer-outline">#1 Most Similar</small></p>
+      <!-- <img src="..." class="card-img-top" alt="..."> -->
+      <div class="card-body color-back ">
+       
+        <h5 class="card-title colorizer-title"><b>{{most}}</b></h5>
+        <p class="card-text">{{most_desc}}</p>
+      </div>
+      
+    </div>
+    <!--  -->
+    <div class="card" style="width: 18rem;">
+      
+      <div class="card-body color-back ">
+        <h5 class="card-title colorizer-other">{{sim_2}}</h5>
+        <p class="card-text">{{sim_2_desc}}</p>
+      </div>
+      
+    </div>
+    <!--  -->
+    <div class="card" style="width: 18rem;">
+      
+      <div class="card-body color-back ">
+        <h5 class="card-title colorizer-other">{{sim_3}}</h5>
+        <p class="card-text">{{sim_3_desc}}</p>
+      </div>
+      
+    </div>
+    <!--  -->
+    <div class="card" style="width: 18rem;">
+     
+      <div class="card-body color-back ">
+        <h5 class="card-title colorizer-other">{{sim_4}}</h5>
+        <p class="card-text">{{sim_4_desc}}</p>
+      </div>
+      
+    </div>
+    <!--  -->
+    <div class="card" style="width: 18rem;">
+   
+      <div class="card-body color-back ">
+        <h5 class="card-title colorizer-other">{{sim_5}}</h5>
+        <p class="card-text">{{sim_5_desc}}</p>
+      </div>
+      
+    </div>
+
+
+  </div>
+  
+</div>
+<br><br>
+
+
+</body>
+<!-- jQery -->
+<script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+<!-- bootstrap js -->
+<script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+<!-- slick  slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+<!-- nice select -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+<!-- custom js -->
+<script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+<style>
+  .padder{
+    padding:10px;
+    margin-top:5rem;
+   
+  }
+  </style>
+</html>
