@@ -9,13 +9,19 @@
 
 ### Preview
 
-> Front
-![](https://github.com/iam4tart/Swaad/blob/main/show_image/front.png?raw=true)
+<details>
+  <summary>Front</summary>
+  <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/front.png?raw=true" alt="Front Image" style="max-width: 100%;">
+</details>
 
-> Similar Recipe
-![](https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_recipe.png?raw=true)
+<details>
+  <summary>Similar Recipe</summary>
+  <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_recipe.png?raw=true" alt="Similar Recipe Image" style="max-width: 100%;">
+</details>
 
-> Recipe based on Ingredients
-![](https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_ingredients.png?raw=true)
+<details>
+  <summary>Recipe based on Ingredients</summary>
+  <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_ingredients.png?raw=true" alt="Recipe based on Ingredients Image" style="max-width: 100%;">
+</details>
 
 </center>
