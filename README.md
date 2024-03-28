@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 ![](https://i.ibb.co/hRVhcMY/Logo.png)
 
@@ -24,5 +24,4 @@
   <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_recipe.png?raw=true" alt="Similar Recipe Image" style="max-width: 100%;">
 </details>
 
-
-</center>
+</div>
