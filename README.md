@@ -2,11 +2,6 @@
 
 ![](https://i.ibb.co/hRVhcMY/Logo.png)
 
-### Get Started
-[Download RAW_recipes.csv and RAW_interactions.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
-
-[Download indian_food.csv](https://www.kaggle.com/code/arya24/cuisine-analysis/data?select=indian_food.csv)
-
 ### Preview
 
 <details>
@@ -24,6 +19,11 @@
   <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/recipe_on_recipe.png?raw=true" alt="Similar Recipe Image" style="max-width: 100%;">
 </details>
 
+
+### Get Started
+[Download RAW_recipes.csv and RAW_interactions.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
+
+[Download indian_food.csv](https://www.kaggle.com/code/arya24/cuisine-analysis/data?select=indian_food.csv)
 
 
 </center>
