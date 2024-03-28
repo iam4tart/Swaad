@@ -14,9 +14,7 @@
 
 <details>
   <summary>Front</summary>
-  <center>
   <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/front.png?raw=true" alt="Front Image" style="max-width: 100%;">
-  </center>
 </details>
 
 <details>
