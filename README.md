@@ -2,6 +2,8 @@
 
 ![](https://i.ibb.co/hRVhcMY/Logo.png)
 
+</div>
+
 ### Get Started
 [Download RAW_recipes.csv and RAW_interactions.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
 
@@ -9,9 +11,12 @@
 
 ### Preview
 
+
 <details>
   <summary>Front</summary>
+  <center>
   <img src="https://github.com/iam4tart/Swaad/blob/main/show_image/front.png?raw=true" alt="Front Image" style="max-width: 100%;">
+  </center>
 </details>
 
 <details>
